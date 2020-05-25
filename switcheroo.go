@@ -228,7 +228,6 @@ func (s *Switcheroo) Begin() (net.Listener, func() error, error) {
 	 * that happens), and cleaning up in old iptables rules and processes
 	 * */
 
-
 	return listener, func() error {
 		logf := s.mkLogf("finalize")
 

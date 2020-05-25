@@ -14,7 +14,9 @@ echo
 echo "***************************************************************************"
 echo "***                 RUNS FOREVER: PRESS CTRL+C TO QUIT                  ***"
 echo "***************************************************************************"
-echo "*** you can also try this elsewhere: curl 'http://127.0.0.1:9999?s=400' ***"
+echo "*** Meanwhile you can also try these in another shell:                  ***"
+echo "***    curl 'http://127.0.0.1:9999?s=250'                               ***"
+echo "***    sudo iptables -L -n -t nat --line-numbers                        ***"
 echo "***************************************************************************"
 echo
 
